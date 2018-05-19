@@ -19,36 +19,36 @@ def data_prep():
 
     return df
 
-if __name__=="__main__":
-    df = data_prep()
-    rs = 42
-
-    # Drop ID Value Types
-    df2 = df[['HATCH','SEDAN','WAG0N','UTE']].dropna()
-
-    # convert to Matrix
-    X = df2.as_matrix()
-
-    # Scaling
-    scalar = StandardScaler()
-    X = scalar.fit_transform(X)
-
-    # Declare lists to save clusters and costs
-    clusters = []
-    inertia_values = []
-
-    # Train clustering with a range of k values
-    for k in range(2, 15, 2):
-        model = KMeans(n_clusters=k, random_state=rs, n_jobs=10)
-        model.fit(X)
-
-        #append model to cluster list
-        clusters.append(model)
-        inertia_values.append(model.inertia_)
-
-    # plot the inertia vs K values
-    plt.plot(range(2,15,2), inertia_values, marker='*')
-    plt.show()
+# if __name__=="__main__":
+#     df = data_prep()
+#     rs = 42
+#
+#     # Drop ID Value Types
+#     df2 = df[['HATCH','SEDAN','WAG0N','UTE']].dropna()
+#
+#     # convert to Matrix
+#     X = df2.as_matrix()
+#
+#     # Scaling
+#     scalar = StandardScaler()
+#     X = scalar.fit_transform(X)
+#
+#     # Declare lists to save clusters and costs
+#     clusters = []
+#     inertia_values = []
+#
+#     # Train clustering with a range of k values
+#     for k in range(2, 15, 2):
+#         model = KMeans(n_clusters=k, random_state=rs, n_jobs=10)
+#         model.fit(X)
+#
+#         #append model to cluster list
+#         clusters.append(model)
+#         inertia_values.append(model.inertia_)
+#
+#     # plot the inertia vs K values
+#     plt.plot(range(2,15,2), inertia_values, marker='*')
+#     plt.show()
 
     # # random state
     #
