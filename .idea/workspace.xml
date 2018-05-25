@@ -42,6 +42,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/A2_P1.py" />
+        <option value="$PROJECT_DIR$/casestudy2.ipynb" />
       </list>
     </option>
   </component>
@@ -54,7 +55,20 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Course" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="QUT-IFN645-CaseStudy2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QUT-IFN645-CaseStudy2" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -134,6 +148,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="1420" y="0" width="1326" height="1834" extended-state="0" />
     <editor active="true" />
     <layout>
@@ -201,6 +216,13 @@
           <folding>
             <element signature="e#19#38#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/casestudy2.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
         </state>
       </provider>
     </entry>
