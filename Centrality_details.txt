@@ -1,0 +1,12 @@
+/	 27.000
+/services.html	 20.000
+/more.html	 19.000
+/direct.html	 19.000
+/richlands	 19.000
+/eaglefarm	 20.000
+/eaglefarm/	 20.000
+/eaglefarm/javascript/menu.js	 18.000
+/robots.txt	 20.000
+/index.html	 18.000
+/eaglefarm/contact/	 18.000
+/richlands/services/	 19.000
