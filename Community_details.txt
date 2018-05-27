@@ -1,3 +1,4 @@
 community 0	 N=12	 users= / /services.html /more.html /guarantee.html /direct.html /acacia.html /springwood.html /vicpoint.html /robots.txt /index.html /whoare.html /cbd.html
-community 1	 N=7	 users= /richlands /richlands/javascript/menu.js /richlands/fileupload /richlands/contact /richlands/services /richlands/services/printing /richlands/services/plans
-community 2	 N=10	 users= /eaglefarm /eaglefarm/javascript/menu.js /eaglefarm/fileupload /eaglefarm/pricelist /eaglefarm/pdf/web_price_list.pdf /eaglefarm/specials /eaglefarm/aboutus /eaglefarm/contact /eaglefarm/default.htm /direct
+community 1	 N=9	 users= /favicon.ico /eaglefarm/javascript/menu.js /eaglefarm/fileupload /eaglefarm/pricelist /eaglefarm/pdf/web_price_list.pdf /eaglefarm/specials /eaglefarm/aboutus /eaglefarm/contact /eaglefarm/default.htm
+community 2	 N=7	 users= /richlands /richlands/javascript/menu.js /richlands/fileupload /richlands/contact /richlands/services /richlands/services/printing /richlands/services/plans
+community 3	 N=2	 users= /eaglefarm /direct
